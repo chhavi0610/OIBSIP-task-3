@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Temperaure Conversion</title>
+</head>
+<body>
+<h1>Temperature Detector</h1>
+ <div class="input-group">
+            <input type="number" id="inputTemp" placeholder="Input">
+            <select id="unit">
+                <option value="CtoF">Celsius to Fahrenheit</option>
+                <option value="FtoC">Fahrenheit to Celsius</option>
+                <option value="CtoK">Celsius to Kelvin</option>
+                <option value="KtoC">Kelvin to Celsius</option>
+                <option value="FtoK">Fahrenheit to Kelvin</option>
+                <option value="KtoF">Kelvin to Fahrenheit</option>
+            </select>
+        </div>
+        <button onclick="convert()">Convert</button>
+        <div class="output-group">
+            <input type="text" id="outputTemp" placeholder="Output" readonly>
+        </div>
+        <p>*Input the Temperature you want to convert and the Unit in which you want to convert it</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
